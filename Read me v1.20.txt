@@ -1,0 +1,15 @@
+================================
+== On-Off Test Jig code v1.20 ==
+================================
+
+What this version of codes can do:
+1. Run on-off test (AC & RC, including RC toggle).
+2. Set total cycles to perform.
+3. Pause test.
+
+What this version of codes CANNOT do:
+1. To customise timing by .txt file.
+
+
+to make executable file in raspberry Pi:
+gcc -o "executable file name" "c code file name".c -lwiringPi -lpthread
